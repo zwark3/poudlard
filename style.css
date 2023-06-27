@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-image: url(1207344.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    /* width: 42.396%; */
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, .15);
+}
+
+h2 {
+    color: white;
+}
+
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea
+
+input::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type=date] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid darkgray;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+label i {
+    margin-right: 10px;
+}
+
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+@media screen and (max-width: 1098px) {
+    input[type=date] {
+        width: 100%;
+    }
+}
+
+.container-2 {
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: white;
+    background: #FF4D4D;
+    padding: 15px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #c63d3d;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .15);
+}
